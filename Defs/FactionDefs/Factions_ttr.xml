@@ -27,10 +27,6 @@
     <geneticVariance>1</geneticVariance>
 		<startingResearchTags>
 		</startingResearchTags>
-		<hairTags>
-			<li>Urban</li>
-			<li>Tribal</li>
-		</hairTags>
 		<apparelStuffFilter>
 			<thingDefs>
 				<li>Synthread</li>
