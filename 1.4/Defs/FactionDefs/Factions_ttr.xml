@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerTtr</defName>
+    <label>Clueless Arrivals</label>
+    <description>A colony of clueless off-worlders.
+	Empty research tree</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+		  <li>Tribal</li>
+		  <li>Urban</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<startingResearchTags>
+	</startingResearchTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Synthread</li>
+		</thingDefs>
+	</apparelStuffFilter>
+  </FactionDef>
+  
+ </Defs>
